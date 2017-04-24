@@ -204,25 +204,9 @@ The permit covers three vehicles — all 2015 Lexus RX 450h hybrid SUVs — and 
     <div class="footer_top_area">
       <div class="inner_footer_top"> <img src="images/add3.png" alt="" /> </div>
     </div>
-    <div class="footer_bottom_area">
-      <div class="footer_menu">
-        <ul id="f_menu">
-          <li><a href="#">world news</a></li>
-          <li><a href="#">Blogs</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">Technology</a></li>
-          <li><a href="#">Political</a></li>
-          <li><a href="#">Study</a></li>
-          <li><a href="#">Entertainment</a></li>
-          <li><a href="#">Sports</a></li>
-          <li><a href="#">Life&style</a></li>
-        </ul>
-      </div>
-      <div class="copyright_text">
-        <p>Copyright &copy; 2017. All rights reserved </p>
-        <p>Trade marks and images used in the design are the copyright of their respective owners and are used for demo purposes only.</p>
-      </div>
-    </div>
+    <?php
+      foot();
+    ?>
   </div>
 </div>
 <script type="text/javascript" src="assets/js/jquery-min.js"></script> 
