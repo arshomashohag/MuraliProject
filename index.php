@@ -11,18 +11,18 @@
 <title>SWOTTA - A Community News Portal</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" type="text/css" href="assets/font/font-awesome.min.css" />
-<link rel="stylesheet" type="text/css" href="assets/font/font.css" />
-<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="assets/css/jquery.bxslider.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
+<?php
+include_once('includes/links.php');
+
+?>
 </head>
 <body>
 <div class="body_wrapper">
   <div class="center">
      <?php
-        head('#', '#', '#', '#', '#');
+        head('#', '#', '#', '#', 'AdminPage.php');
      ?>
     
     <div class="slider_area">
@@ -209,10 +209,10 @@ The permit covers three vehicles — all 2015 Lexus RX 450h hybrid SUVs — and 
     ?>
   </div>
 </div>
-<script type="text/javascript" src="assets/js/jquery-min.js"></script> 
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> 
-<script type="text/javascript" src="assets/js/jquery.bxslider.js"></script> 
-<script type="text/javascript" src="assets/js/selectnav.min.js"></script> 
+<?php
+ include_once('includes/scripts.php');
+?>
+
 <script type="text/javascript">
 selectnav('nav', {
     label: '-Navigation-',

@@ -1,7 +1,7 @@
 <?php
 
 
-function head($home, $about, $contact, $login, $subs){
+function head($home, $about, $contact, $subs, $login){
   printf('
     <div class="header_area">
       <div class="logo floatleft"><a href="#"><img src="images/logo12.png" alt="" /></a></div>
@@ -56,7 +56,7 @@ function foot(){
         <p>Trade marks and images used in the design are the copyright of their respective owners and are used for demo purposes only.</p>
       </div>
     </div>');
-    
+
 }
 
 
